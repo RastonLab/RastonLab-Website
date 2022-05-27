@@ -1,0 +1,25 @@
+ul {
+    list-style: none;
+    margin-left: 15%;
+}
+
+#contents {
+    margin-bottom: 100px;
+}
+
+#person p {
+    float: left;
+    width: 700px;
+}
+
+#person img {
+    position: flex;
+}
+
+/* How to not overshoot links to sections on the same page */
+/* https://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
+.anchor {
+    display:block;
+    padding-top:100px;
+    margin-top:-100px;
+ }

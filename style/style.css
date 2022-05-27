@@ -1,0 +1,89 @@
+* {
+    background-color: hsl(0,0%,10%);
+    color: hsl(100, 100%, 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: lighter;
+    font-family: 'Nova Square';
+    font-size: 35px;
+}
+
+h2 {
+    margin-left: 15%;
+    font-size: 23px;
+}
+
+h3 {
+    margin-left: 15%;
+    font-family: 'Comfortaa';
+}
+
+p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+a {
+    color: hsl(30,88%,69%);
+}
+
+nav {
+    padding: 1% 0%;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+nav p {
+    display: inline;
+    padding: 0% 0.5%;
+    margin: 0;
+    font-family: 'Nova Square';
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color:hsl(100, 100%, 100%);
+    font-family: 'Nova Square';
+}
+
+#heading {
+    text-align: left;
+    padding: 0% 1%;
+    font-family: 'Nova Square';
+    font-size: 20px;
+    border-right: 3px solid hsl(100, 100%, 100%);
+}
+
+.nav-button {
+    align-self: right;
+}
+
+nav .nav-button:hover {
+    font-style: italic;
+}
+
+#banner {
+    /* background-image: url('https://i2.wp.com/www.differencebetween.com/wp-content/uploads/2021/04/Difference-Between-Prism-Spectra-and-Grating-Spectra_1.jpg?w=640&ssl=1'); */
+    background-image: url('https://cdn.britannica.com/78/149178-050-F2421B64/light-prism-color-angle-colors-wavelength-wavelengths.jpg');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position-y: 38%;
+    position: sticky;
+}
+
+#title-text {
+    text-align: right;
+    padding-top: 270px;
+    padding-right: 75%;
+    padding-bottom: 200px;
+    background-color: hsla(0,0%,10%, .80);
+}

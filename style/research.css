@@ -1,0 +1,29 @@
+ul {
+    list-style: none;
+    margin-left: 15%;
+}
+
+#contents {
+    margin-bottom: 80px;
+}
+
+/* #contents a{
+    text-decoration: none;
+    color: white;
+} */
+
+/* How to not overshoot links to sections on the same page */
+/* https://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
+.anchor {
+    display:block;
+    padding-top:100px;
+    margin-top:-95px;
+ }
+
+ .sec .anchor {
+     padding-top: 100px;
+     margin-top: 50px;
+     margin-right: 15%;
+     border-top: 3px solid hsl(0,66%,63%);
+     border-radius: 15%;
+ }

@@ -1,0 +1,37 @@
+#quote p {
+    font-family: 'Comfortaa';
+    font-size: 25px;
+    text-align: center;
+    padding: 70px 0px;
+    border-top: 3px solid hsl(0,66%,63%);
+    border-bottom: 3px solid hsl(0,66%,63%);
+    border-radius: 20%;
+    margin: 100px 30%;
+}
+
+.donor {
+    padding: 20px 0px;
+}
+
+#rcsa {
+    padding-left: 100px;
+}
+
+#acs {
+    padding-left: 150px;
+}
+
+#jmu {
+    padding-left: 150px;
+}
+
+.all-donors p {
+    margin: 0%;
+}
+
+.all-donors {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 15%;
+    align-items: baseline;
+}
