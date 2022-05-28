@@ -2,6 +2,7 @@
     background-color: hsl(0,0%,10%);
     color: hsl(100, 100%, 100%);
     font-family: 'Montserrat', sans-serif;
+    line-height: 2.5;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
 h2 {
     margin-left: 15%;
     font-size: 23px;
+    width: 70%;
 }
 
 h3 {

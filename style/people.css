@@ -7,13 +7,21 @@ ul {
     margin-bottom: 100px;
 }
 
-#person p {
-    float: left;
-    width: 700px;
+.person  h3{
+    margin: 50px 15% 0% 15%;
+    padding-top: 100px;
+    border-top: 3px solid hsl(0,66%,63%);
+    border-radius: 15%; 
 }
 
-#person img {
-    position: flex;
+.person p {
+    float: left;
+    width: 50%;
+    margin-right: 0;
+}
+
+.person img {
+    padding-top: 25px;
 }
 
 /* How to not overshoot links to sections on the same page */
