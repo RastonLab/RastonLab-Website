@@ -5,6 +5,10 @@
     line-height: 2.5;
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
     font-weight: lighter;
     font-family: 'Nova Square';
@@ -39,6 +43,7 @@ nav {
     width: 100%;
     z-index: 1;
     top: 0;
+    box-shadow: 0px 1px 15px hsl(0,0%,20%);
 }
 
 nav p {
@@ -81,12 +86,13 @@ nav .nav-button:hover {
     width: 100%;
     background-position: center;
     margin-bottom: 50px;
+    box-shadow: 0px 1px 20px hsl(0,0%,40%);
 }
 
 #title-text {
-    text-align: right;
-    padding-top: 270px;
-    padding-right: 75%;
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 15%;
     padding-bottom: 200px;
     background-color: hsla(0,0%,10%, .80);
 }
