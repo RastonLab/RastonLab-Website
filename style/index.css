@@ -10,9 +10,11 @@
 }
 
 .donor {
-    padding: 20px 0px;
+    padding: 20px 4%;
+    float: left;
+    height: 350px;
 }
-
+/* 
 #rcsa {
     padding-left: 100px;
 }
@@ -23,15 +25,15 @@
 
 #jmu {
     padding-left: 150px;
-}
+} */
 
 .all-donors p {
     margin: 0%;
 }
 
 .all-donors {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     margin: 50px 15%;
     align-items: baseline;
     text-align: center;
