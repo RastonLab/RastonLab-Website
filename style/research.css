@@ -7,6 +7,18 @@ ul {
     margin-bottom: 80px;
 }
 
+#contents a {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+}
+
+#contents a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px hsl(30,88%,69%);
+}
+
 /* https://www.w3schools.com/css/css3_buttons.asp */
 .button {
     margin-left: 15%;
@@ -15,6 +27,11 @@ ul {
     color: hsl(0,0%,10%);
     font-weight: 700;
     box-shadow: 0px 0px 5px hsl(0, 0%, 40%);
+}
+
+.button:hover {
+    background-color: white;
+    box-shadow: 0px 0px 15px hsl(30,88%,69%);
 }
 
 /* #contents a{
