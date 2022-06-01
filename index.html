@@ -19,10 +19,29 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
-        <nav>
+        <!-- <nav>
             <p id="heading">The Raston Group</p>
             <p class="nav-button"><strong>Home</strong></p>
             <p class="nav-button"><a href='research.html'>Research</a></p>
+            <p class="nav-button"><a href="./education.html">Education</a></p>
+            <p class="nav-button"><a href='./people.html'>People</a></p>
+        </nav> -->
+
+        <nav> <!--Make grid???-->
+            <p id="heading">The Raston Group</p>
+            <p class="nav-button"><strong>Home</strong></p>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Research
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="./research.html">Research</a></li>
+                  <li><a class="dropdown-item" href="./research.html#hendi">Helium NanoDroplet</a></li>
+                  <li><a class="dropdown-item" href="./research.html#infrared">Infrared Laser Jet Spectroscopy</a></li>
+                  <li><a class="dropdown-item" href="./research.html#microwave">CP-FTMW</a></li>
+                  <li><a class="dropdown-item" href="./research.html#ftir">FTIR</a></li>
+                </ul>
+              </div>
             <p class="nav-button"><a href="./education.html">Education</a></p>
             <p class="nav-button"><a href='./people.html'>People</a></p>
         </nav>
@@ -44,29 +63,6 @@
                 <h2>Funding</h2>
 
                 <p>We are grateful to the following organizations for their financial support:</p>
-
-                <!-- <div class="all-donors">
-                    <div class="donor">
-                        <img src="./images/nsf-logo.png">
-                        <p>NSF CAREER Award <br>(2022-2027)
-                            <br>NSF MRI Grant <br>(2020-2023)</p>
-                    </div>
-
-                    <div id="rcsa" class="donor">
-                        <img src="./images/rcsa-logo.png">
-                        <p>RCSA Cottrell Scholar Award <br>(2019-2022)</p>
-                    </div>
-
-                    <div id='acs' class="donor">
-                        <img src="./images/acs-logo.png">
-                        <p>ACS PRF Undergraduate New<br> Investigator Grant <br>(2016-2018)</p>
-                    </div>
-
-                    <div id='jmu' class="donor">
-                        <img src="./images/jmu-logo.png">
-                        <p>JMU Startup Funds <br>(2015)</p>
-                    </div>
-                </div> -->
 
                 <div class="container">
                     <div class="row">
