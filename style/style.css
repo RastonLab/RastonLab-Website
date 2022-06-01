@@ -7,12 +7,13 @@
 
 body {
     margin: 0;
+    background-color: hsl(0,0%,10%) !important;
 }
 
 h1 {
     font-weight: lighter;
     font-family: 'Nova Square';
-    font-size: 35px;
+    font-size: 35px !important;
 }
 
 h2 {
@@ -34,7 +35,7 @@ p {
 }
 
 a {
-    color: hsl(30,88%,69%);
+    color: hsl(30,88%,69%) !important;
 }
 
 nav {
@@ -56,7 +57,7 @@ nav p {
 
 nav a {
     text-decoration: none;
-    color:hsl(100, 100%, 100%);
+    color:hsl(100, 100%, 100%) !important;
     font-family: 'Nova Square';
 }
 
@@ -85,14 +86,15 @@ nav .nav-button:hover {
     height: 500px;
     width: 100%;
     background-position: center;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
     box-shadow: 0px 1px 20px hsl(0,0%,40%);
 }
 
 #title-text {
-    text-align: left;
-    padding-top: 250px;
-    padding-left: 15%;
+    text-align: left !important;
+    padding-top: 258px !important;
+    padding-left: 15% !important;
     padding-bottom: 200px;
     background-color: hsla(0,0%,10%, .80);
+    margin-bottom: 0;
 }
