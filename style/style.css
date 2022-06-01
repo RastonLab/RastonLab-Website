@@ -20,6 +20,7 @@ h2 {
     margin-left: 15%;
     font-size: 23px;
     width: 70%;
+    color: hsl(100, 100%, 100%) !important;
 }
 
 h3 {
