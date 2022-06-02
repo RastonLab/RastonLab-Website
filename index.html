@@ -27,24 +27,55 @@
             <p class="nav-button"><a href='./people.html'>People</a></p>
         </nav> -->
 
-        <nav> <!--Make grid???-->
-            <p id="heading">The Raston Group</p>
-            <p class="nav-button"><strong>Home</strong></p>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Research
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="./research.html">Research</a></li>
-                  <li><a class="dropdown-item" href="./research.html#hendi">Helium NanoDroplet</a></li>
-                  <li><a class="dropdown-item" href="./research.html#infrared">Infrared Laser Jet Spectroscopy</a></li>
-                  <li><a class="dropdown-item" href="./research.html#microwave">CP-FTMW</a></li>
-                  <li><a class="dropdown-item" href="./research.html#ftir">FTIR</a></li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <!-- Title -->
+              <a class="navbar-brand" href="#">The Raston Group</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Home -->
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong></a>
+                  </li>
+                  <!-- Research Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Research
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./research.html">Research</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./research.html#hendi">HeNDI</a></li>
+                      <li><a class="dropdown-item" href="./research.html#infrared">Infrared</a></li>
+                      <li><a class="dropdown-item" href="./research.html#microwave">CP-FTMW</a></li>
+                      <li><a class="dropdown-item" href="./research.html#ftir">FTIR</a></li>
+                    </ul>
+                  </li>
+                  <!-- Education -->
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./education.html" >Education</a>
+                  </li>
+                  <!-- People -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">People</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="./people.html">People</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./people.html#paul">Paul Raston</a></li>
+                    </ul>
+                  </li>
                 </ul>
+                <!-- Search -->
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
-            <p class="nav-button"><a href="./education.html">Education</a></p>
-            <p class="nav-button"><a href='./people.html'>People</a></p>
-        </nav>
+            </div>
+          </nav>
     
         <div id="banner">
             <h1 id="title-text">The Raston Group</h1>
