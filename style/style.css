@@ -48,13 +48,9 @@ nav {
     box-shadow: 0px 1px 15px hsl(0,0%,20%);
 }
 
-/* nav p {
-    display: inline;
-    padding: 0% 0.5%;
-    margin: 0;
-    font-family: 'Nova Square';
-    font-size: 15px;
-} */
+.navbar-nav {
+    margin-left: 0;
+}
 
 nav a {
     text-decoration: none;
@@ -72,6 +68,51 @@ nav a {
 .nav-link:hover {
     font-style: italic;
 }
+
+.dropdown-menu {
+    background-color: hsl(0,0%,10%) !important;
+}
+
+.dropdown-divider {
+    background-color: hsl(30,88%,69%) !important;
+}
+
+.dropdown-item {
+    transition: all .3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: hsl(0,0%,20%) !important;
+    color: hsl(30,88%,69%)!important;
+    /* box-shadow: 0px 0px 15px hsl(30,88%,69%); */
+    transition: all .3s ease;
+}
+
+/* Custom Navbar Toggle color */
+/* https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(246,176,106, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+.custom-toggler.navbar-toggler {
+    border-color: hsl(30,88%,69%);
+    border-width: 3px;
+  }
+
+
+/* Search Button */
+/* .btn {
+    color: hsl(30,88%,69%) !important;
+    border-color: hsl(30,88%,69%) !important;
+} */
+
+/* nav p {
+    display: inline;
+    padding: 0% 0.5%;
+    margin: 0;
+    font-family: 'Nova Square';
+    font-size: 15px;
+} */
 
 #banner {
     /* background-image: url('https://i2.wp.com/www.differencebetween.com/wp-content/uploads/2021/04/Difference-Between-Prism-Spectra-and-Grating-Spectra_1.jpg?w=640&ssl=1'); */
