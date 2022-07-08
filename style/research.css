@@ -57,6 +57,16 @@ ul {
     display:block;
     padding-top:100px;
     margin-top:-95px;
+    margin-left: 15%;
+    font-size: 32px;
+    width: 70%;
+    color: hsl(100, 100%, 100%) !important;
+    transition: all .4s ease;
+ }
+
+ .anchor:hover {
+    color: hsl(30,88%,69%) !important;
+    transition: all .4s ease;
  }
 
  .sec .anchor {
