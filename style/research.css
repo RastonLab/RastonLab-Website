@@ -51,6 +51,16 @@ ul {
     color: white;
 } */
 
+.images {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+img {
+    padding: 0 1rem;
+}
+
 /* How to not overshoot links to sections on the same page */
 /* https://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
 .anchor {
