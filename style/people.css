@@ -48,6 +48,10 @@ ul {
     border-radius: 15%; 
 }
 
+.person h3 {
+    margin-left: 15%;
+}
+
 .row {
     margin: 0% 15% !important;
 }
