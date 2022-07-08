@@ -9,10 +9,8 @@
     margin: 100px 30%;
 }
 
-.donor {
-    padding: 20px 4%;
-    float: left;
-    height: 350px;
+/* .donor {
+    padding: 20px 2%;
 }
 
 .all-donors p {
@@ -20,9 +18,64 @@
 }
 
 .all-donors {
-    /* display: flex;
-    flex-direction: row; */
     margin: 50px 15%;
+    width: 70%;
     align-items: baseline;
+    display: inline-flex;
+    justify-content: center;
     text-align: center;
+} */
+
+.container {
+    margin: 100px 15%;
+}
+
+/* Funding Style */
+
+.funding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 3px solid hsl(0,66%,63%);
+    border-bottom: 3px solid hsl(0,66%,63%);
+    border-radius: 15%;
+    width: 70%;
+    margin: 0 15%;
+}
+
+#funding-text {
+    font-size: 30px;
+}
+
+.funding-slide {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    vertical-align: middle;
+    max-height: 300px;
+    max-width: 300px;
+    padding: 1rem;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-delay: 1s;
+  -webkit-animation: arrowInOut 5s linear forwards;
+  animation: arrowInOut 5s linear forwards;
+}
+
+/* https://stackoverflow.com/questions/49949881/css-keyframes-fade-in-hold-and-fade-out */
+@-webkit-keyframes arrowInOut {
+    0%,100% {opacity: 0;}
+    30%, 80% {opacity: 1;}
+}
+
+@keyframes arrowInOut {
+    0%,100% {opacity: 0;}
+    30%, 80% {opacity: 1;}
 }

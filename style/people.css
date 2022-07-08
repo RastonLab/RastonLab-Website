@@ -1,3 +1,7 @@
+/* main {
+    margin: 0 15%;
+} */
+
 ul {
     list-style: none;
     margin-left: 15%;
@@ -22,7 +26,7 @@ ul {
 }
 
 .button {
-    /* margin-left: 15%; */
+    margin: 40px 0px;
     background-color: hsl(30,88%,69%);
     border-radius: 10px;
     color: hsl(0,0%,10%);
@@ -37,40 +41,48 @@ ul {
     transition: all .4s ease;
 }
 
-.person  h3{
-    margin: 50px 15% 0% 15%;
+.person {
+    margin: 50px 15% 0% 0%;
     padding-top: 100px;
     border-top: 3px solid hsl(0,66%,63%);
     border-radius: 15%; 
 }
 
-.person p {
+.person h3 {
+    margin-left: 15%;
+}
+
+.row {
+    margin: 0% 15% !important;
+}
+
+.row p {
     float: left;
-    width: 35%;
+    /* width: 35%; */
     margin-right: 0;
+}
+
+.col img {
+    /* margin-left: 30%; */
+    width: 350px;
+    height: 250px;
 }
 
 /* .person img {
     padding-top: 25px;
 } */
 
-.image {
+/* .image {
     width: 35%;
     height:250px;
     margin-right: 15%;
     float: right;
-}
+} */
 
-.image img {
-    margin-left: 30%;
-    width: 350px;
-    height: 250px;
-}
-
-.image .button {
+/* .image .button {
     margin-left: 50%;
     margin-top: 20px;
-}
+} */
 
 /* How to not overshoot links to sections on the same page */
 /* https://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
