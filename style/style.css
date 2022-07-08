@@ -68,8 +68,15 @@ nav a {
     border-right: 3px solid hsl(100, 100%, 100%);
 }
 
+.nav-link {
+    transition: all .3s ease;
+    border-radius: 0.5rem;
+}
+
 .nav-link:hover {
-    font-style: italic;
+    background-color: hsl(0,0%,20%) !important;
+    color: hsl(30,88%,69%) !important;
+    transition: all .3s ease;
 }
 
 .dropdown-menu {
@@ -82,6 +89,7 @@ nav a {
 
 .dropdown-item {
     transition: all .3s ease;
+    border-radius: 0.5rem;
 }
 
 .dropdown-item:hover {
