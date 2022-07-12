@@ -44,12 +44,17 @@ ul {
 .person {
     margin: 50px 15% 0% 0%;
     padding-top: 100px;
+    padding-bottom: 1em;
     border-top: 3px solid hsl(0,66%,63%);
     border-radius: 15%; 
 }
 
 .person h3 {
     margin-left: 15%;
+}
+
+h4 {
+    margin-left: 8%;
 }
 
 .row {
@@ -66,6 +71,12 @@ ul {
     /* margin-left: 30%; */
     width: 350px;
     height: 250px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
 }
 
 /* .person img {
