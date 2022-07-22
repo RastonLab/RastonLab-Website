@@ -59,6 +59,8 @@ ul {
 
 img {
     padding: 0 1rem;
+    width: 35rem !important;
+
 }
 
 /* How to not overshoot links to sections on the same page */
