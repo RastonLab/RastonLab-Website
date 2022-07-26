@@ -25,23 +25,6 @@
     text-align: center;
 }
 
-/* .donor {
-    padding: 20px 2%;
-}
-
-.all-donors p {
-    margin: 0%;
-}
-
-.all-donors {
-    margin: 50px 15%;
-    width: 70%;
-    align-items: baseline;
-    display: inline-flex;
-    justify-content: center;
-    text-align: center;
-} */
-
 .container {
     margin: 100px 15%;
 }
@@ -72,10 +55,11 @@
     color: white;
     padding: 2rem;
     border-radius: 10em;
+    text-align: center;
 }
 
 #funding-text {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .funding-slide {
