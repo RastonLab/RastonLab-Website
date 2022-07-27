@@ -61,9 +61,8 @@ h4 {
 }
 
 .col img {
-    /* margin-left: 30%; */
-    width: 350px;
-    height: 250px;
+    width: auto;
+    max-Height: 500px;
 }
 
 .text {
