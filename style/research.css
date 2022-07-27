@@ -53,13 +53,15 @@ ul {
 
 .images {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     padding: 1rem 0;
 }
 
 img {
     padding: 0 1rem;
-    width: 35rem !important;
+    width: 100%;
 
 }
 
