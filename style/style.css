@@ -21,7 +21,7 @@ h1 {
 
 h2 {
     margin-left: 15%;
-    font-size: 23px;
+    font-size: 30px;
     width: 70%;
     color: hsl(100, 100%, 100%) !important;
 }
@@ -33,7 +33,7 @@ h3 {
 p {
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 15px;
+    font-size: 18px;
     padding-top: 10px;
 }
 
@@ -142,7 +142,11 @@ nav a {
     text-align: left !important;
     padding-top: 258px !important;
     padding-left: 15% !important;
-    padding-bottom: 200px;
+    padding-bottom: 205px;
     background-color: hsla(0,0%,10%, .80);
     margin-bottom: 0;
+}
+
+footer {
+    height: 50px;
 }

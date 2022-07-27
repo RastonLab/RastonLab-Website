@@ -1,30 +1,29 @@
 #quote p {
     font-family: 'Comfortaa';
-    font-size: 25px;
-    text-align: center;
-    padding: 70px 0px;
+    font-size: 20px;
+    margin: 100px 30%;
+    /* width: 40%; */
+    /* padding: 70px 0px;
     border-top: 3px solid hsl(0,66%,63%);
     border-bottom: 3px solid hsl(0,66%,63%);
-    border-radius: 20%;
+    border-radius: 20%; */
+}
+
+.quote .module-border-wrap {
+    width: 40%;
     margin: 100px 30%;
-}
-
-/* .donor {
-    padding: 20px 2%;
-}
-
-.all-donors p {
-    margin: 0%;
-}
-
-.all-donors {
-    margin: 50px 15%;
-    width: 70%;
-    align-items: baseline;
-    display: inline-flex;
-    justify-content: center;
+    background: linear-gradient(90deg, red, orange, yellow, green, rgb(31, 193, 193), blue, purple);
+    padding: 3px;
+    border-radius: 20em;
+  }
+  
+.quote .module {
+    background: hsl(0,0%,10%);
+    color: white;
+    padding: 2rem;
+    border-radius: 20em;
     text-align: center;
-} */
+}
 
 .container {
     margin: 100px 15%;
@@ -36,15 +35,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-top: 3px solid hsl(0,66%,63%);
+    /* border-top: 3px solid hsl(0,66%,63%);
     border-bottom: 3px solid hsl(0,66%,63%);
-    border-radius: 15%;
-    width: 70%;
+    border-radius: 15%; */
+    /* width: 70%; */
     margin: 0 15%;
 }
 
+.funding .module-border-wrap {
+    width: 80%;
+    margin: 100px 15%;
+    background: linear-gradient(90deg, red, orange, yellow, green, rgb(31, 193, 193), blue, purple);
+    padding: 3px;
+    border-radius: 10em;
+  }
+  
+.funding .module {
+    background: hsl(0,0%,10%);
+    color: white;
+    padding: 2rem;
+    border-radius: 10em;
+    text-align: center;
+}
+
 #funding-text {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .funding-slide {
