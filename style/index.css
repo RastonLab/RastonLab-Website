@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-#symposium-picture{
+#symposium-picture {
     width: 70%;
     margin: 2% 15%;
 }
@@ -115,4 +115,24 @@
 @keyframes arrowInOut {
     0%,100% {opacity: 0;}
     30%, 80% {opacity: 1;}
+}
+
+/* ----- Responsiveness ----- */
+@media only screen and (max-width: 1050px){
+    #symposium-2022 .module-border-wrap {
+        width: 80%;
+        margin: 100px 10%;
+
+    }
+
+    .quote .module-border-wrap {
+        width: 50%;
+        margin: 100px 25%;
+    }
+
+    .funding .module-border-wrap {
+        width: 90%;
+        margin: 100px 5%;
+    }
+
 }
