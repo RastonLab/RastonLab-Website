@@ -1,24 +1,24 @@
 ul {
-    list-style: none;
-    margin-left: 15%;
+  list-style: none;
+  margin-left: 15%;
 }
 
 #contents {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 #contents a {
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 2px 5px;
-    transition: all .4s ease;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 2px 5px;
+  transition: all 0.4s ease;
 }
 
 #contents a:hover {
-    background-color: white;
-    color: black !important;
-    box-shadow: 0px 0px 15px hsl(30,88%,69%);
-    transition: all .4s ease;
+  background-color: white;
+  color: black !important;
+  box-shadow: 0px 0px 15px hsl(30, 88%, 69%);
+  transition: all 0.4s ease;
 }
 
 /* .button {
@@ -38,42 +38,41 @@ ul {
 } */
 
 .person {
-    /* padding-top: 100px; */
-    padding-bottom: 1em;
+  /* padding-top: 100px; */
+  padding-bottom: 1em;
 }
 
 .person h3 {
-    margin-left: 4%;
+  margin-left: 4%;
 }
 
 h4 {
-    margin-left: 8%;
-    font-size: 25px;
-    text-decoration: underline;
+  margin-left: 8%;
+  font-size: 25px;
+  text-decoration: underline;
 }
 
 .row {
-    margin: 0% 4% !important;
+  margin: 0% 4% !important;
 }
 
 .row p {
-    float: left;
-    /* width: 35%; */
-    margin-right: 0;
+  float: left;
+  /* width: 35%; */
+  margin-right: 0;
 }
 
 .text {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
 }
 
 .col img {
-    width: auto;
-    max-width: 95%;
-    max-Height: 500px;
+  width: auto;
+  max-width: 95%;
+  max-height: 500px;
 }
-
 
 /* .person img {
     padding-top: 25px;
@@ -94,34 +93,43 @@ h4 {
 /* How to not overshoot links to sections on the same page */
 /* https://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
 .anchor {
-    display:block;
-    padding-top:100px;
-    margin-top:-100px;
- }
+  display: block;
+  padding-top: 100px;
+  margin-top: -100px;
+}
 
 .module-border-wrap {
-    width: 92%;
-    margin: 100px 4%;
-    background: linear-gradient(90deg, red, orange, yellow, green, rgb(31, 193, 193), blue, purple);
-    padding: 3px;
-    border-radius: 10em;
+  width: 92%;
+  margin: 100px 4%;
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    rgb(31, 193, 193),
+    blue,
+    purple
+  );
+  padding: 3px;
+  border-radius: 10em;
 }
 
 .module {
-    background: hsl(0,0%,10%);
-    color: white;
-    padding: 2rem;
-    border-radius: 10em;
-    text-align: left;
+  background: hsl(0, 0%, 10%);
+  color: white;
+  padding: 2rem;
+  border-radius: 10em;
+  text-align: left;
 }
 
 /* ----- Responsiveness ----- */
 @media only screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
+  .row {
+    flex-direction: column;
+  }
 
-    h4 {
-        font-size: 30px !important;
-    }
+  h4 {
+    font-size: 30px !important;
+  }
 }
