@@ -81,6 +81,7 @@
 
 #funding-text {
     font-size: 25px;
+    text-align: center;
 }
 
 .funding-slide {
@@ -118,7 +119,7 @@
 }
 
 /* ----- Responsiveness ----- */
-@media only screen and (max-width: 1050px){
+@media only screen and (max-width: 1050px) {
     #symposium-2022 .module-border-wrap {
         width: 80%;
         margin: 100px 10%;
@@ -133,6 +134,33 @@
     .funding .module-border-wrap {
         width: 90%;
         margin: 100px 5%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #symposium-2022 .module-border-wrap {
+        width: 90%;
+        margin: 100px 5%;
+
+    }
+
+    .quote .module-border-wrap {
+        width: 99%;
+        margin: 100px 3px;
+    }
+
+    .funding .module-border-wrap {
+        width: 100%;
+        margin: 100px 0;
+    }
+
+    .funding .module {
+        padding: 6rem;
+    }
+
+    #funding-text {
+        margin: auto 0;
     }
 
 }
