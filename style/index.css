@@ -1,3 +1,24 @@
+#symposium-2022 .module-border-wrap {
+    width: 70%;
+    margin: 100px 15%;
+    background: linear-gradient(90deg, red, orange, yellow, green, rgb(31, 193, 193), blue, purple);
+    padding: 3px;
+    border-radius: 10em;
+  }
+  
+#symposium-2022 .module {
+    background: hsl(0,0%,10%);
+    color: white;
+    padding: 2rem;
+    border-radius: 10em;
+    text-align: center;
+}
+
+#symposium-picture {
+    width: 70%;
+    margin: 2% 15%;
+}
+
 #quote p {
     font-family: 'Comfortaa';
     font-size: 20px;
@@ -60,6 +81,7 @@
 
 #funding-text {
     font-size: 25px;
+    text-align: center;
 }
 
 .funding-slide {
@@ -69,12 +91,13 @@
     align-items: center;
 }
 
-img {
+.funding-image {
     vertical-align: middle;
     max-height: 300px;
     max-width: 300px;
     padding: 1rem;
 }
+
 
 /* Fading animation */
 .fade {
@@ -93,4 +116,51 @@ img {
 @keyframes arrowInOut {
     0%,100% {opacity: 0;}
     30%, 80% {opacity: 1;}
+}
+
+/* ----- Responsiveness ----- */
+@media only screen and (max-width: 1050px) {
+    #symposium-2022 .module-border-wrap {
+        width: 80%;
+        margin: 100px 10%;
+
+    }
+
+    .quote .module-border-wrap {
+        width: 50%;
+        margin: 100px 25%;
+    }
+
+    .funding .module-border-wrap {
+        width: 90%;
+        margin: 100px 5%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #symposium-2022 .module-border-wrap {
+        width: 90%;
+        margin: 100px 5%;
+
+    }
+
+    .quote .module-border-wrap {
+        width: 99%;
+        margin: 100px 3px;
+    }
+
+    .funding .module-border-wrap {
+        width: 100%;
+        margin: 100px 0;
+    }
+
+    .funding .module {
+        padding: 6rem;
+    }
+
+    #funding-text {
+        margin: auto 0;
+    }
+
 }

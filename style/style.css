@@ -21,13 +21,14 @@ h1 {
 
 h2 {
     margin-left: 15%;
-    font-size: 30px;
+    font-size: 30px !important;
     width: 70%;
     color: hsl(100, 100%, 100%) !important;
 }
 
 h3 {
     font-family: 'Comfortaa';
+    margin-right: 10%;
 }
 
 p {
@@ -48,7 +49,8 @@ nav {
     /* z-index: 1;
     top: 0; */
     box-shadow: 0px 1px 15px hsl(0,0%,20%);
-    background-color: hsl(0,0%,10%);;
+    background-color: hsl(0,0%,10%);
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -142,11 +144,35 @@ nav a {
     text-align: left !important;
     padding-top: 258px !important;
     padding-left: 15% !important;
-    padding-bottom: 205px;
+    padding-bottom: 100%;
     background-color: hsla(0,0%,10%, .80);
     margin-bottom: 0;
+    padding-right: 15%;
 }
 
 footer {
     height: 50px;
+}
+
+/* ----- Responsiveness ----- */
+@media only screen and (max-width: 700px) {
+    p {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 60px !important;
+    }
+
+    h2 {
+        font-size: 40px !important;
+    }
+
+    h3 {
+        font-size: 30px !important;
+    }
+
+    #banner {
+        height: 700px;
+    }
 }
