@@ -1,30 +1,28 @@
 ul {
-    list-style: none;
-    margin-left: 15%;
+  list-style: none;
+  margin-left: 15%;
 }
 
 #contents-title {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 #contents {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 #contents a {
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 2px 5px;
-    transition: all .4s ease;
-
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 2px 5px;
+  transition: all 0.4s ease;
 }
 
 #contents a:hover {
-    background-color: white;
-    color: black !important;
-    box-shadow: 0px 0px 15px hsl(30,88%,69%);
-    transition: all .4s ease;
-
+  background-color: white;
+  color: black !important;
+  box-shadow: 0px 0px 15px hsl(30, 88%, 69%);
+  transition: all 0.4s ease;
 }
 
 /* https://www.w3schools.com/css/css3_buttons.asp */
@@ -52,61 +50,69 @@ ul {
 } */
 
 .images {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1rem 0;
 }
 
 img {
-    padding: 0 1rem;
-    width: 70%;
-
+  padding: 0 1rem;
+  width: 70%;
 }
 
 /* How to not overshoot links to sections on the same page */
 /* https://stackoverflow.com/questions/23581161/how-to-control-the-anchor-landing-position */
 .anchor {
-    display:block;
-    padding-top:100px;
-    margin-top:-95px;
-    margin-left: 5%;
-    font-size: 32px;
-    width: 70%;
-    color: hsl(100, 100%, 100%) !important;
-    transition: all .4s ease;
- }
+  display: block;
+  padding-top: 100px;
+  margin-top: -95px;
+  margin-left: 5%;
+  font-size: 32px;
+  width: 70%;
+  color: hsl(100, 100%, 100%) !important;
+  transition: all 0.4s ease;
+}
 
- .anchor:hover {
-    color: hsl(30,88%,69%) !important;
-    transition: all .4s ease;
- }
+.anchor:hover {
+  color: hsl(30, 88%, 69%) !important;
+  transition: all 0.4s ease;
+}
 
- .sec .anchor {
-     padding-top: 100px;
-     margin-top: 50px;
-     margin-right: 15%;
-     /* border-top: 3px solid hsl(0,66%,63%); */
-     border-radius: 15%;
- }
+.sec .anchor {
+  padding-top: 100px;
+  margin-top: 50px;
+  margin-right: 15%;
+  /* border-top: 3px solid hsl(0,66%,63%); */
+  border-radius: 15%;
+}
 
 .module-border-wrap {
-    width: 92%;
-    margin: 100px 4%;
-    background: linear-gradient(90deg, red, orange, yellow, green, rgb(31, 193, 193), blue, purple);
-    padding: 3px;
-    border-radius: 10em;
-  }
-  
+  width: 92%;
+  margin: 100px 4%;
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    rgb(31, 193, 193),
+    blue,
+    purple
+  );
+  padding: 3px;
+  border-radius: 10em;
+}
+
 .module {
-    background: hsl(0,0%,10%);
-    color: white;
-    padding: 4rem;
-    border-radius: 10em;
-    text-align: left;
+  background: hsl(0, 0%, 10%);
+  color: white;
+  padding: 4rem;
+  border-radius: 10em;
+  text-align: left;
 }
 
 .module p {
-    margin: 0 4%;
+  margin: 0 4%;
 }
