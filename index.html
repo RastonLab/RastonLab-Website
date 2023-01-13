@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>The Raston Lab</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -87,14 +88,17 @@
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdown"
+                id="navbarDropdownResearch"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Research
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownResearch"
+              >
                 <li>
                   <a class="dropdown-item" href="./research.html">Research</a>
                 </li>
@@ -128,13 +132,13 @@
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdown"
+                id="navbarDropdownPeople"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 >People</a
               >
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownPeople">
                 <li>
                   <a class="dropdown-item" href="./people.html">People</a>
                 </li>
@@ -231,21 +235,19 @@
             </p>
 
             <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto -->
-            <article class="slides">
-              <div class="funding-slide fade">
+            <div class="slides">
+              <figure class="funding-slide fade">
                 <img
                   class="funding-image"
-                  width="300px"
-                  height="300px"
                   src="images/logo/dreyfus-logo.png"
                   alt="Dreyfus Foundation logo"
                 />
                 <figcaption>
                   Henry Dreyfus Teacher-Scholar Award (2022-2027)
                 </figcaption>
-              </div>
+              </figure>
 
-              <div class="funding-slide fade">
+              <figure class="funding-slide fade">
                 <img
                   class="funding-image"
                   src="images/logo/nsf-logo.png"
@@ -254,18 +256,18 @@
                 <figcaption>
                   NSF CAREER Award (2022-2027), NSF MRI Grant (2020-2023)
                 </figcaption>
-              </div>
+              </figure>
 
-              <div class="funding-slide fade">
+              <figure class="funding-slide fade">
                 <img
                   class="funding-image"
                   src="images/logo/rescorp-logo.png"
                   alt="Research Corporation for Science Advancement logo"
                 />
                 <figcaption>RCSA Cottrell Scholar Award (2019-2022)</figcaption>
-              </div>
+              </figure>
 
-              <div class="funding-slide fade">
+              <figure class="funding-slide fade">
                 <img
                   class="funding-image"
                   src="images/logo/acs-prf-logo.jpg"
@@ -274,17 +276,17 @@
                 <figcaption>
                   ACS PRF Undergraduate New Investigator Grant (2016-2018)
                 </figcaption>
-              </div>
+              </figure>
 
-              <div class="funding-slide fade">
+              <figure class="funding-slide fade">
                 <img
                   class="funding-image"
                   src="images/logo/jmu-logo.png"
                   alt="James Madison University logo"
                 />
                 <figcaption>JMU Startup Funds (2015)</figcaption>
-              </div>
-            </article>
+              </figure>
+            </div>
           </div>
         </div>
       </div>
@@ -294,13 +296,13 @@
           <div class="module">
             <p>
               The beauty of a living thing is not the atoms that go into it, but
-              the way those atoms are put together <br />
-              - Carl Sagan
+              the way those atoms are put together
             </p>
+            <p>- Carl Sagan</p>
           </div>
         </div>
       </div>
     </main>
+    <footer></footer>
   </body>
-  <footer></footer>
 </html>
