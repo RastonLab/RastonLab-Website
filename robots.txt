@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /images/
+Disallow: /style/
+Disallow: /js/
+Disallow: /education.html
+Disallow: /people.html
+Disallow: /research.html
