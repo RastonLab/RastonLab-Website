@@ -59,7 +59,7 @@
 .quote .module {
   background: hsl(0, 0%, 10%);
   color: white;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 20em;
   text-align: center;
 }
@@ -111,7 +111,8 @@
   text-align: center;
 }
 
-.funding-slide {
+.funding-slide,
+.quote-slide {
   display: none;
   flex-direction: column;
   justify-content: center;
@@ -133,6 +134,13 @@
   animation-delay: 1s;
   -webkit-animation: arrowInOut 5s linear forwards;
   animation: arrowInOut 5s linear forwards;
+}
+
+.quote-fade {
+  animation-name: fade;
+  animation-delay: 1s;
+  -webkit-animation: arrowInOut 10s linear forwards;
+  animation: arrowInOut 10s linear forwards;
 }
 
 /* https://stackoverflow.com/questions/49949881/css-keyframes-fade-in-hold-and-fade-out */
