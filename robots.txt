@@ -1,15 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /images/
-Disallow: /images/*.ico$
-Disallow: /images/*.png$
-Disallow: /images/logo/*.jpg$
-Disallow: /images/logo/*.png$
-Disallow: /images/people/*.png$
-Disallow: /images/people/*.jpg$
-Disallow: /images/people/*.jfif$
-Disallow: /style/
-Disallow: /js/
-Disallow: /education.html
-Disallow: /people.html
-Disallow: /research.html
+Disallow: /
+
 Sitemap: https://www.rastonlab.org/sitemap.xml
